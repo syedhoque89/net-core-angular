@@ -1,0 +1,154 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+body {
+  font-family: Nunito Sans, sans-serif;
+}
+
+.h2, h2 {
+  font-weight: 800;
+  color: #1a202c;
+  letter-spacing: 0;
+  font-size: 56px;
+  line-height: 1.2em;
+}
+
+.title {
+  font-weight: 800;
+  color: #1a202c;
+  line-height: 1.2em;
+  letter-spacing: 0;
+  font-size: 34px;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.location {
+  margin-top: 16px !important;
+  margin-left: 0;
+  font-size: 12px;
+  width: auto;
+  line-height: 1.3em;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+  color: #4a5568 !important;
+  letter-spacing: 0;
+  text-transform: uppercase !important;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.b2 {
+  font-size: 18px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+  color: #2d3748;
+  line-height: 1.6em;
+  letter-spacing: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-right: 10px;
+}
+
+hr.rounded {
+  margin-bottom: 16px !important;
+  margin-top: 16px !important;
+  border-color: #e2e8f0 !important;
+  display: block;
+  flex: 1 1 0px;
+  max-width: 100%;
+  height: 0;
+  max-height: 0;
+  border: solid;
+  border-width: thin 0 0;
+  transition: inherit;
+}
+
+.rounds {
+  line-height: 1.6em;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+  color: #2d3748;
+  letter-spacing: 0;
+}
+
+.from {
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+  color: #2d3748;
+}
+
+.price {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: .8em;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+  color: #2d3748 !important;
+  margin-bottom: 16px !important;
+}
+
+.pp {
+  color: #2d3748 !important;
+  text-decoration-thickness: initial;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: .8em;
+  font-weight: 600;
+  font-family: Open Sans, sans-serif;
+}
+
+.image {
+  margin-top: 16px;
+}
+
+.star {
+  color: #ffc107 !important;
+  caret-color: #ffc107 !important;
+}
+
+/* On mouse-over, add a deeper shadow */
+.container:hover {
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  float: left;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  overflow: hidden;
+
+}
+.padding{
+  padding: 15px;
+}
+
+.feature-image{
+  width: 500px;
+  height: 250px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.feature-image:hover{
+  transform: scale(1.1);
+}
+img {
+  transition: transform .5s ease;
+  margin-bottom: 20px;
+}

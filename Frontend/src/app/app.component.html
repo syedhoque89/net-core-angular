@@ -1,0 +1,20 @@
+  <div *ngFor="let product of products">
+        <app-title [title]="product.title"></app-title>
+        <div *ngFor="let item of product.items" >
+          <div class="container">
+            <app-feature-image [imageUrl]="item.image.file.url"></app-feature-image>
+            <div class="padding">
+              <app-location [location]=" item.parent_location"></app-location>
+              <div *ngFor="let d of item.data">
+                <app-subtitle [subtitle]="item.full_name"></app-subtitle>
+                <app-star-rating [rating]="d.venue_information.official_star_rating"></app-star-rating>
+              </div>
+              <hr class="rounded">
+              <app-lead-products [nights]="item.lead_product.nights" [rounds]="item.lead_product.rounds"
+                                 [price]="item.lead_product.price"></app-lead-products>
+            </div>
+          </div>
+        </div>
+    <div style="clear:both;"></div>
+  </div>
+
